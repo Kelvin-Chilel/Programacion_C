@@ -45,7 +45,7 @@ int main() {
         printf("4. Salir.\n");
         printf("Ingrese su opción: ");
         scanf("%d", &opcion);
-        getchar(); // Consumir el salto de línea
+        getchar();
 
         switch (opcion) {
             case 1:
@@ -75,7 +75,6 @@ int main() {
                 break;
             case 4:
                 printf("Saliendo del programa.\n");
-                return 0;
             default:
                 printf("Opción inválida. Por favor, ingrese una opción válida.\n");
         }
